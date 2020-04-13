@@ -19,7 +19,7 @@ SteamFreeGames
 
 Cookie登录 (推荐有安全令时使用)
 --------------
-1.先运行  *GetCookies.py*  并且正确登录Steam获得Cookie信息，将会保存在Cookies.json中 (若有手机安全令也需要输入) <br>
+1.先运行  *GetCookies.py*  并且正确登录Steam获得Cookie信息，将会保存在*Cookies.json*中 (若有手机安全令也需要输入) <br>
 2.再运行  *main.py*    等待数据获取完成控制台输入"1"选择此登录方式 <br>
 3.等待成功提示 <br>
 
