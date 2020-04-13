@@ -3,7 +3,7 @@ SteamFreeGames
 
 有什么用？
 --------------
-1.从Steamdb的游戏限免资讯界面(https://steamdb.info/upcoming/free/)获得当日免费信息 <br>
+1.从Steamdb的游戏限免资讯界面( *https://steamdb.info/upcoming/free/* ) 获得当日免费信息 <br>
 2.仅筛选可以永久免费游玩的游戏 <br>
 3.自动登录你的steam，检索这些游戏并领取 <br>
 
