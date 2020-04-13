@@ -9,7 +9,7 @@ options = webdriver.ChromeOptions()
 options.add_argument('user-agent=' + UA)
 prefs = {"profile.managed_default_content_settings.images": 2,'permissions.default.stylesheet':2}
 options.add_experimental_option("prefs", prefs)
-driver = webdriver.Chrome(options=options)
+driver = webdriver.Chrome('C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe',options=options)
 driver.get("https://steamdb.info/upcoming/free")
 driver.maximize_window()
 time.sleep(4)
