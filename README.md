@@ -1,7 +1,7 @@
-#SteamFreeGames<br>
+#SteamFreeGames
 ==============
-<br>
-#有什么用？
+
+有什么用？
 --------------
 1.从Steamdb的游戏限免资讯界面(https://steamdb.info/upcoming/free/)获得当日免费信息 <br>
 2.仅筛选可以永久免费游玩的游戏 <br>
@@ -11,13 +11,13 @@
 --------------
 1.正确安装Python3以上版本及其第三方库Selenium，并正确安装Chrome对应版本的ChromeDriver <br>
 2.采用两种登录方式(Cookie登录和普通账密登录) <br>
-<br>
+
 #普通账密登录 (推荐无安全令时使用)
 --------------
 1.直接运行  main.py  等待数据获取完成控制台输入"2"选择此登录方式,根据控制台中的提示输入 账号 密码 (若有手机安全令也需要输入) <br>
 2.等待成功提示 <br>
-<br>
-#Cookie登录 (推荐有安全令时使用) <br>
+
+#Cookie登录 (推荐有安全令时使用)
 --------------
 1.先运行  GetCookies.py  并且正确登录Steam获得Cookie信息，将会保存在Cookies.json中 (若有手机安全令也需要输入) <br>
 2.再运行  main.py  等待数据获取完成控制台输入"1"选择此登录方式 <br>
