@@ -100,7 +100,7 @@ elif choice == "2":
         driver.find_element_by_xpath('//*[@id="login_twofactorauth_buttonset_entercode"]/div[1]').click()
     else:
         print('Login Successful!')
-
+time.sleep(5)
 # 检索游戏并获取
 
 for games in available_game_lt:
