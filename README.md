@@ -1,4 +1,4 @@
-SteamFreeGames
+SteamFreeGames V1.0
 ==============
 
 有什么用？
