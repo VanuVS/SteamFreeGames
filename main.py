@@ -22,11 +22,11 @@ game_id_lt = []
 while True:
     try:
         data_appid = driver.find_element_by_xpath(
-            "/html/body/div[1]/div[1]/div[3]/table[1]/tbody/tr[" + str(i) + "]").get_attribute(
+            "/html/body/div[1]/div[1]/div[4]/table[1]/tbody/tr[" + str(i) + "]").get_attribute(
             "data-appid")
         game_id_lt.append(data_appid)
         game_name_location = driver.find_element_by_xpath(
-            "/html/body/div[1]/div[1]/div[3]/table[1]/tbody/tr[" + str(i) + "]/td[2]/a/b")
+            "/html/body/div[1]/div[1]/div[4]/table[1]/tbody/tr[" + str(i) + "]/td[2]/a/b")
         ActionChains(driver).move_to_element(game_name_location).perform()  # 元素显示受jQuery控制 添加鼠标事件
         time.sleep(1)
         js = "return document.querySelector('#js-hover-app-" + str(data_appid) + " > h4').textContent"  # 返回隐藏元素的值即正确游戏名
